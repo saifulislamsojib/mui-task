@@ -1,11 +1,15 @@
+import { Box } from "@mui/material";
 import React from "react";
+import MainContent from "./components/MainContent";
+import Navbar from "./components/Navbar";
 import "./styles/App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
+    <Box>
+      <Navbar />
+      <MainContent />
+    </Box>
   );
 }
 
